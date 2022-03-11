@@ -33,7 +33,6 @@
 # d = x / y
 # print(d)
 #
-#
 # print('dzielenie bez reszty')
 # e = x // y
 # print(e)
@@ -54,26 +53,20 @@
 # a = int(input('Pierwsza cyfra: '))
 # b = int(input('Druga cyfra: '))
 #
-#
 # def dodawanie(x, y):
 #     print('dodawanie: ', x + y)
-#
 #
 # def odejmowanie(x, y):
 #     print('odejmowania: ', x - y)
 #
-#
 # def mnozenie(x, y):
 #     print('mnozenie: ', x * y)
-#
 #
 # def dzielenie(x, y):
 #     print('dzielenie: ', x / y)
 #
-#
 # def potega(x, y):
 #     print('potega: ', x ** y)
-#
 #
 # def reszta(x, y):
 #     print('reszta: ', x % y)
