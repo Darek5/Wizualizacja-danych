@@ -1,0 +1,161 @@
+#Konfiguracja środowiska oraz zajęcia nr 1 i 2
+#lab1
+#ZADANIE_1
+#Napisz pierwszy skrypt, w którym zadeklarujesz po dwie zmienne każdego typu a następnie wyświetl te zmienne:
+# a = 1
+# b = 6
+# c = 11.03
+# d = 20.22
+# e = 'praca'
+# f = 'domowa'
+# print(a, b, c, d, e, f)
+#
+#
+#ZADANIE_2
+#Stwórz skrypt kalkulator,w którym wykorzystywać wszystkie podstawowe działania arytmetyczne:
+# print('Podaj dwie cyfry')
+# x = int(input('Pierwsza cyfra: '))
+# y = int(input('Druga cyfra: '))
+#
+# print('suma')
+# a = x + y
+# print(a)
+#
+# print('różnica')
+# b = x - y
+# print(b)
+#
+# print('mnożenie')
+# c = x * y
+# print(c)
+#
+# print('dzielenie')
+# d = x / y
+# print(d)
+#
+#
+# print('dzielenie bez reszty')
+# e = x // y
+# print(e)
+#
+# # procent(%) - inaczej reszta
+# print('dzielenie z reszta')
+# f = x%y
+# print(f)
+#
+# # podwojna gwiazdka(**) - poteguje cyfry
+# print('potegowanie')
+# g = x**y
+# print(g)
+#
+#
+#ZADANIE_3
+#Napisz skrypt, w którym stworzysz operatory przyrostkowe dla operacji: +, -, *, /, **, %:
+# a = int(input('Pierwsza cyfra: '))
+# b = int(input('Druga cyfra: '))
+#
+#
+# def dodawanie(x, y):
+#     print('dodawanie: ', x + y)
+#
+#
+# def odejmowanie(x, y):
+#     print('odejmowania: ', x - y)
+#
+#
+# def mnozenie(x, y):
+#     print('mnozenie: ', x * y)
+#
+#
+# def dzielenie(x, y):
+#     print('dzielenie: ', x / y)
+#
+#
+# def potega(x, y):
+#     print('potega: ', x ** y)
+#
+#
+# def reszta(x, y):
+#     print('reszta: ', x % y)
+#
+# print(dodawanie(a, b), odejmowanie(a, b), mnozenie(a, b), dzielenie(a, b), potega(a, b), reszta(a, b))
+#
+#
+#ZADANIE_4
+#Napisz skrypt, który policzy i wyświetli następujące wyrażenia:
+#skrypt_1. 𝑒10
+#skrypt_2. 6√ln⁡(5+𝑠𝑖𝑛(8)2)
+#skrypt_3. ⌊3,55⌋
+#skrypt_4. ⌈4,80⌉
+
+# #skrypt_1.
+# e = 2.71828182845904523536028747135266249775724709369995957
+# 49669676277240766303535475945713821785251664274
+# #pierwiastek **
+# f = e**10
+# print(f)
+# #skrypt_2
+# #
+# #print "math.sqrt(6)" ?????????????????#
+# #
+# #skrypt_3.
+# a = 3/55 # lub abs(3.55)
+# print(a)
+# #skrypt_4.
+# b = 4/80 # lub abs(4.80)
+# print(b)
+#
+#
+#ZADANIE_5
+#Zapisz swoje imie i nazwisko w oddzielnych zmiennych wszystkie wielkimi literami.
+#Użyj odpowiedniej metody by wyświetlić je pisane tak, że pierwsza litera jest wielka
+#a pozostałe małe.(trzeba użyć metody capitalize)
+#
+#W Pythonie metoda capitalize() konwertuje pierwszy znak ciągu na wielkie litery i małe litery, jeśli takie istnieją.
+# a = input('PROSZE PODAC IMIE WIELKIMI LITERAMI: ')
+# b = input('PROSZE PODAC NAZWISKO WIELKIMI LITERAMI: ')
+#
+# print('IMIE i NAZIWSKO przed: ', a, b)
+#
+# c = a.capitalize()
+# d = b.capitalize()
+# print('Imie i nazwisko po: ', c, d)
+#
+#
+#ZADANIE_6
+#Napisz skrypt, gdzie w zmiennej string zapiszesz fragment tekstu piosenki z powtarzajacymi
+#się słowami np. "la la la". Nastepnie użyj odpowiedniej funkcji, która zliczy występowanie
+#słowa "la".(trzeba użyć metody count)
+#Metoda count Python () służy do zliczania ile razy pojawia się w postaci ciągu znaków.
+#Tekst piosenki z "Naughty Boy - La la la ft. Sam Smith"
+# a = 'La la, la la la la la na na na na na La la na na, la la la la la na na na na na La la, la la la la la na na na na na La la na na, la la la la la na na na na na'
+# count = a.count('la')
+# print(count)
+#
+#
+#ZADANIE_7
+#Do poszczególnych elementów łańcucha możemy się odwoływać przez podanie indeksu. Np. pierwszy
+#znak zapisany w zmiennej imie uzyskany przez imie[0]. Zapisz dowolną zmienną łańcuchową i wyświetl
+#jej drugą i ostatnią literę, wykorzystując indeksy.
+# a = input('Proszę o podanie imienia: ')
+# b = len(a) - 1
+# print(a[1], a[b])
+#
+#
+#ZADANIE_8
+#Zmienne łańcuchowe możemy dzielić. Wykorzystaj zmienną z ZADANIE_6 i spróbuj ją podzielić na poszczególne wyrazy.
+#(trzeba użyć metody split)
+# a = 'La la, la la la la la na na na na na La la na na, la la la la la na na na na na La la, la la la la la na na na na na La la na na, la la la la la na na na na na'
+# b = a.split()
+# print(*b)
+#
+#
+#ZADANIE_9
+#Napisz skrypt, w którym zadeklarujesz zmienne typu: string, float i szestnastkowe. Następnie
+#wyświetl je wykorzystując odpowiednie formatowanie.
+# a = 
+# b = 
+# c = 
+# d = 
+# e =
+# f =
